@@ -1,6 +1,6 @@
 
 .bg-image{
-  background-image: url('./dummyimg.jpg');
+  
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -20,13 +20,15 @@ li a{
   text-decoration: none;
   color: black;
 }
+.hover-effect:hover{
+  border: 1px solid white;
+  
+}
 label{
   font-weight: bold;
 }
-.side-bar{
- 
-}
-ul li:hover{
+
+.side-bar li:hover{
   background-color: rgb(235, 235, 235);
   }
 
